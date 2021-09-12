@@ -40,7 +40,7 @@
             android:id="@+id/etEmailSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:errorEnabled="true"
+            app:errorEnabled="false"
             android:hint="@string/helpTextInputLayout"
             app:helperTextEnabled="false"
             android:layout_marginBottom="@dimen/marginTextInput">
@@ -58,7 +58,7 @@
             android:id="@+id/etPasswordSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:errorEnabled="true"
+            app:errorEnabled="false"
             app:helperText="@string/helpTextInputLayout"
             app:helperTextEnabled="false"
             android:layout_marginTop="15dp"

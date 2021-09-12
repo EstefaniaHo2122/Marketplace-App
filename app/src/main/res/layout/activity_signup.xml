@@ -40,7 +40,7 @@
             android:id="@+id/etNameSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:errorEnabled="true"
+            app:errorEnabled="false"
             app:helperText=""
             android:layout_marginBottom="@dimen/marginTextInput"
             app:helperTextEnabled="false">
@@ -58,7 +58,7 @@
             android:id="@+id/etLastNameSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:errorEnabled="true"
+            app:errorEnabled="false"
             app:helperText=""
             android:layout_marginVertical="@dimen/marginTextInput"
             android:layout_marginBottom="@dimen/marginTextInput"
@@ -77,7 +77,7 @@
             android:id="@+id/etEmailSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:errorEnabled="true"
+            app:errorEnabled="false"
             app:helperText=""
             app:helperTextEnabled="false"
             android:layout_marginBottom="@dimen/marginTextInput">
@@ -95,7 +95,7 @@
             android:id="@+id/etPasswordSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:errorEnabled="true"
+            app:errorEnabled="false"
             app:helperText=""
             app:helperTextEnabled="false"
             android:layout_marginBottom="@dimen/marginTextInput">

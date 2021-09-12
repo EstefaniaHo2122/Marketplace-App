@@ -1,3 +1,14 @@
 <resources>
-    <string name="app_name">Market Place App</string>
+    <string name="app_name">Click Shopping</string>
+    <string name="btnLoginText">Iniciar sesión</string>
+    <string name="tvSignUpText">No tienes una cuenta? Crear cuenta.</string>
+    <string name="tvSingInTitleText">Ya tienes una cuenta?</string>
+    <string name="tvSingUnTitleText">Aun no tienes una cuenta?</string>
+    <string name="etTextLastNameSignup">Apellidos</string>
+    <string name="etTexNameSignup">Nombres</string>
+    <string name="etTextEmailSignup">Correo Electrónico</string>
+    <string name="etTextPasswordSignup">Contraseña</string>
+    <string name="btnSignupText">Crear Cuenta</string>
+    <string name="tvSignInText">Ya tienes una cuenta? Iniciar sesión</string>
+    <string name="helpTextInputLayout"></string>
 </resources>

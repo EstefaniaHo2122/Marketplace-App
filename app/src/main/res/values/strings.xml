@@ -12,6 +12,12 @@
     <string name="tvSignInText">Ya tienes una cuenta? Iniciar sesión</string>
     <string name="helpTextInputLayout"></string>
 
+    <!-- Splash Screen -->
+    <string name="SplashTitle">Clic</string>
+    <string name="SplashTitleA">Shopping</string>
+    <string name="SplashSlogan">Lo que quieres a un click!</string>
+    <string name="SplashRigthR">Todos los derechos reservados © </string>
+
     <!-- Validacion de Campos -->
     <string name="textHelpError"></string>
 

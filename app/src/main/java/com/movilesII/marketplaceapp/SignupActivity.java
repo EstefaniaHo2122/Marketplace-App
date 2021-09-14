@@ -2,7 +2,9 @@ package com.movilesII.marketplaceapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.FocusFinder;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -13,6 +15,7 @@ import com.google.android.material.textfield.TextInputLayout;
 public class SignupActivity extends AppCompatActivity implements View.OnClickListener {
 
     Button btnAccountCreate;
+    TextView tvGoLoginActivity;
     ValidateClass validar;
 
     @Override
@@ -28,7 +31,8 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
 
        btnAccountCreate = findViewById(R.id.btnSignup);
        btnAccountCreate.setOnClickListener(this);
-
+       tvGoLoginActivity = findViewById(R.id.tvGoLogin);
+       tvGoLoginActivity.setOnClickListener(this);
     }
 
     @Override
@@ -41,8 +45,14 @@ public class SignupActivity extends AppCompatActivity implements View.OnClickLis
                     Toast.makeText(this, "Error en la validacion", Toast.LENGTH_SHORT).show();
                 }
                 break;
+            case R.id.tvGoLogin:
+                Intent intent = new Intent(this, LoginActivity.class);
+                this.startActivity(intent);
+                break;
         }
     }
+
+
 
 
 

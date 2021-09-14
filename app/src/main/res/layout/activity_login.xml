@@ -37,7 +37,7 @@
         android:layout_margin="20dp">
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/etEmailSignup"
+            android:id="@+id/etEmailLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:errorEnabled="false"
@@ -49,13 +49,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Email"
-                android:inputType="textEmailAddress">
+                android:inputType="textEmailAddress"
+                android:drawableStart="@drawable/ic_email"
+                android:drawablePadding="@dimen/drawablePaddin">
 
             </EditText>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/etPasswordSignup"
+            android:id="@+id/etPasswordLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:errorEnabled="false"
@@ -68,11 +70,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Password"
-                android:inputType="textPassword">
+                android:inputType="textPassword"
+                android:drawableStart="@drawable/ic_key"
+                android:drawablePadding="@dimen/drawablePaddin">
 
             </EditText>
         </com.google.android.material.textfield.TextInputLayout>
         <Button
+            android:id="@+id/btnLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btnLoginText"
@@ -82,6 +87,7 @@
             android:layout_marginBottom="@dimen/marginTextInput"
             android:paddingHorizontal="@dimen/paddignButtons"/>
         <TextView
+            android:id="@+id/tvGoSignup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/tvSignUpText"

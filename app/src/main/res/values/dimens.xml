@@ -2,4 +2,5 @@
 <resources>
     <dimen name="marginTextInput">5dp</dimen>
     <dimen name="paddignButtons">20dp</dimen>
+    <dimen name="drawablePaddin">16dp</dimen>
 </resources>

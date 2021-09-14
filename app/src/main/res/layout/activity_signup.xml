@@ -49,7 +49,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/etTexNameSignup"
-                android:inputType="textPersonName">
+                android:inputType="textPersonName"
+                android:drawableStart="@drawable/ic_person_input"
+                android:drawablePadding="@dimen/drawablePaddin">
 
             </EditText>
         </com.google.android.material.textfield.TextInputLayout>
@@ -68,7 +70,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/etTextLastNameSignup"
-                android:inputType="textPersonName">
+                android:inputType="textPersonName"
+                android:drawableStart="@drawable/ic_person_input"
+                android:drawablePadding="@dimen/drawablePaddin">
 
             </EditText>
         </com.google.android.material.textfield.TextInputLayout>
@@ -86,7 +90,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/etTextEmailSignup"
-                android:inputType="textEmailAddress">
+                android:inputType="textEmailAddress"
+                android:drawableStart="@drawable/ic_email"
+                android:drawablePadding="@dimen/drawablePaddin">
 
             </EditText>
         </com.google.android.material.textfield.TextInputLayout>
@@ -98,13 +104,16 @@
             app:errorEnabled="false"
             app:helperText=""
             app:helperTextEnabled="false"
-            android:layout_marginBottom="@dimen/marginTextInput">
+            android:layout_marginBottom="@dimen/marginTextInput"
+            app:passwordToggleEnabled="true">
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/etTextPasswordSignup"
-                android:inputType="textPassword">
+                android:inputType="textPassword"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawablePadding="@dimen/drawablePaddin">
 
             </EditText>
         </com.google.android.material.textfield.TextInputLayout>
@@ -119,7 +128,7 @@
             android:paddingHorizontal="@dimen/paddignButtons"/>
 
         <TextView
-            android:id="@+id/tvTextLogin"
+            android:id="@+id/tvGoLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"

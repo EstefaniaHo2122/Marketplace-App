@@ -11,4 +11,8 @@
     <string name="btnSignupText">Crear Cuenta</string>
     <string name="tvSignInText">Ya tienes una cuenta? Iniciar sesión</string>
     <string name="helpTextInputLayout"></string>
+
+    <!-- Validacion de Campos -->
+    <string name="textHelpError"></string>
+
 </resources>

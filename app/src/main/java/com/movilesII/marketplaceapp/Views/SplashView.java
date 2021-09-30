@@ -1,4 +1,4 @@
-package com.movilesII.marketplaceapp;
+package com.movilesII.marketplaceapp.Views;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,18 +8,20 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.widget.TextView;
 
+import com.movilesII.marketplaceapp.R;
+
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.util.Date;
 
-public class SplashActiviy extends AppCompatActivity {
+public class SplashView extends AppCompatActivity {
 
     TextView tvTitleSplash1, tvTitleSplash2, tvSloganSplash, tvRighReserved;
     Typeface typeAkayaFonts, typeCourgetteFonts;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash_activiy);
+        setContentView(R.layout.view_splash);
 
         tvTitleSplash1 = findViewById(R.id.tvTitleSplash1);
         tvTitleSplash2 = findViewById(R.id.tvTitleSplash2);
@@ -33,7 +35,7 @@ public class SplashActiviy extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashActiviy.this, LoginActivity.class));
+                startActivity(new Intent(SplashView.this, LoginViewImpl.class));
                 finish();
             }
         }, 2500);

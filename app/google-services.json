@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "737241438718",
+    "firebase_url": "https://clickshopping-db-default-rtdb.firebaseio.com",
+    "project_id": "clickshopping-db",
+    "storage_bucket": "clickshopping-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737241438718:android:08849a9f33112675c148af",
+        "android_client_info": {
+          "package_name": "com.movilesII.marketplaceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737241438718-p18cu7i9lr2jeanagm75gdml2vf0j4e4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAf3-fENnsmT6XARgiwbnCal_0mAGQK9WM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737241438718-p18cu7i9lr2jeanagm75gdml2vf0j4e4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

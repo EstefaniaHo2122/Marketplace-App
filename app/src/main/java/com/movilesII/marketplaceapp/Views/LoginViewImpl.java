@@ -42,8 +42,8 @@ public class LoginViewImpl extends AppCompatActivity implements LoginInterface.V
     public void onClick(View v){
         switch (v.getId()){
             case R.id.btnLogin:
-                //Toast.makeText(this, "Click Login", Toast.LENGTH_SHORT).show();
                 doValidations();
+                break;
             case R.id.tvGoSignup:
                 navigateToSignUp();
                 break;
